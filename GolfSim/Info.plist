@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMotionUsageDescription</key>
+	<string>GolfSim uses motion sensors at 100 Hz to measure your swing, clubhead speed, and launch direction in standalone play and remote controller mode.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>GolfSim turns this iPhone into a Bluetooth golf swing controller so a Web Bluetooth display can receive finalized impact telemetry.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>GolfSim advertises as a BLE peripheral and notifies subscribed displays with edge-computed swing impact packets.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-peripheral</string>
+		<string>bluetooth-central</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>AccentColor</string>
+	</dict>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+</dict>
+</plist>
